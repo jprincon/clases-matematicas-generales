@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Cálculo de Porcentajes</title>
 </head>
 
 <body class="container" style="margin-top: 30px; margin-bottom: 30px;">
@@ -58,8 +58,9 @@
 
             var result = document.getElementById('result');
 
-            var resultados = '<p style="margin: 30px">';
+            var resultados = '<p style="margin: 10px">';
 
+            resultados = resultados + 'Cálculo Número% = ' + x + '<br>';
             resultados = resultados + 'Cálculo 10% = ' + (x * 10) / 100 + '<br>';
             resultados = resultados + 'Cálculo 12.5% = ' + (x * 12.5) / 100 + '<br>';
             resultados = resultados + 'Cálculo 25% = ' + (x * 25) / 100 + '<br>';
@@ -70,9 +71,6 @@
             resultados = resultados + 'Cálculo 200% = ' + (x * 200) / 100 + '<br>';
 
             result.innerHTML = resultados + '</p>';
-
-            console.log(resultados);
-
         }
     </script>
 
